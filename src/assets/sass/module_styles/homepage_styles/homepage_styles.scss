@@ -1,0 +1,85 @@
+.homepage-container {
+  width: 100%;
+  height: 100%;
+  
+  .homepage-section {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .homepage-section-1 {
+    position: relative;
+    overflow: hidden;
+    background: url('../../../images/homepage/section_1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  .homepage-section-1:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    transform-origin: right;
+    transform: skewY(8deg);
+  }
+
+  .homepage-section-1:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    transform-origin: left;
+    transform: skewY(-8deg);
+  }
+
+  .homepage-section-2 {
+    height: auto;
+    padding: 100px;
+    box-sizing: border-box;
+    
+    h1 {
+      margin: 50px 0 20px;
+      padding: 0;
+      font-family: sans-serif;
+      color: #262626;
+      font-size: 48px;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      color: #262626;
+      font-size: 20px;
+    }
+  }
+
+  .homepage-section-3 {
+    position: relative;
+    overflow: hidden;
+    background: url('../../../images/homepage/section_3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  .homepage-section-3:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    transform-origin: left;
+    transform: skewY(4deg);
+  }
+}
