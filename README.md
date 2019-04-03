@@ -1,4 +1,4 @@
-# rohitrmohanty@gitbub.io
+# rohitrmohanty@github.io
 
 This is a repo for storing my personal website. It will contain all the skills I feel are relevant to the modern day web developer.
 

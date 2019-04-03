@@ -5,7 +5,7 @@ import '../../assets/sass/base_styles/base_styles.scss';
 import '../../assets/sass/module_styles/homepage_styles/homepage_styles.scss';
 
 // Visual Component Imports
-import Header from '../helpers/header/header';
+// import Header from '../helpers/header/header';
 
 class Homepage extends Component {
   render() {
