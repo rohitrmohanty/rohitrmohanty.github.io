@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev_logs on Rohit R. Mohanty</title>
+    <link>https://rohitrmohanty.github.io/dev_log/</link>
+    <description>Recent content in Dev_logs on Rohit R. Mohanty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rohitrmohanty.github.io/dev_log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, World!</title>
+      <link>https://rohitrmohanty.github.io/dev_log/first-log/</link>
+      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rohitrmohanty.github.io/dev_log/first-log/</guid>
+      <description>Hugo is Set Up! I am excited to be working on stuff. Keep watching this space.</description>
+    </item>
+    
+  </channel>
+</rss>
